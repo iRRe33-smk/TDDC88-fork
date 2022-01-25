@@ -1,0 +1,119 @@
+/**
+* PatientNavList.css
+*
+* Contains all the css applied to the PatientNavList.js component.
+*
+* Philip Nylén - DRAFT
+*/
+
+button {
+    background: none;
+    border: none;
+}
+
+ul {
+    padding: 0%;
+    list-style-type: none;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    width: 100%;
+}
+
+ul li {
+    width: 80%;
+    height: 52px;
+    border-radius: 20px;
+    border: 1px solid black;
+    display: flex;
+    margin: auto;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.374);
+    background-color: rgba(110, 110, 110, 0.05);
+}
+
+div#linkList{
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 92%;
+    height: 50px;
+}
+
+h3.long {
+    width: 24%;
+    display: inline-flex;
+    margin: auto;
+    height: 100%;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    vertical-align: middle;
+    padding-top: 10px;
+    padding-left: 2%;
+}
+
+h3.medium {
+    position: relative;
+    width: 12%;
+    display: inline-flex;
+    margin: auto;
+    height: 100%;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 20px 0px 0px 20px;
+    padding-top: 15px;
+    justify-content: center;
+}
+h3.short {
+    width: 8%;
+    display: inline-flex;
+    margin: auto;
+    height: 100%;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    vertical-align: middle;
+    padding-top: 10px;
+    justify-content: center;
+}
+
+a.nav-link {
+    margin: auto;
+}
+
+div.divideContainer {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+.teams {
+    width: fit-content;
+    display: flex;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: black;
+    font-family: "Arial Normal", "Arial", sans-serif;
+    font-weight: 700;
+}
+
+.teams:hover {
+    color: rgba(50, 50, 50, 0.9);
+}
+
+.spacer {
+    color: white;
+}
+
+#exclamation{
+    padding-top: 2px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 5%;
+}
+
+.trends {
+    filter: drop-shadow(2px 4px 4px rgba(50, 50, 50, 0.5));
+}

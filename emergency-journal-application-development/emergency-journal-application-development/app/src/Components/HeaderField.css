@@ -1,0 +1,84 @@
+/**
+* LoginForm.css
+*
+* Contains all the css applied to the LoginForm.js component.
+*
+* Philip Nylén - DRAFT
+*
+* Documentation not complete.
+*/
+h1#headerText {
+    width: fit-content;
+    margin-bottom: auto;
+    margin-top: auto;
+    margin-left: 1%;
+    color: white;
+    font-family: "Arial Normal", "Arial", sans-serif;
+    font-weight: 700;
+    filter: drop-shadow(2px 4px 4px black);
+}
+
+#linkarea3 {
+    width: fit-content;
+    height: fit-content;
+    margin-bottom: auto;
+    margin-top: auto;
+    margin-left: 1%;
+}
+
+#linkarea2 {
+    width: fit-content;
+    height: fit-content;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    margin-left: 1%;
+}
+
+img {
+    margin-bottom: auto;
+    margin-top: auto;
+    margin-left: 1%;
+    vertical-align: middle;
+}
+
+div#headerArea {
+    background-color: #204581;
+    display: flex;
+    height: fit-content;
+    width: 100%;
+}
+
+.linkarea {
+  margin-right: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-icon {
+    color: white;
+    width: fit-content;
+    height: fit-content;
+}
+
+div#icon-field {
+  margin-left: auto;
+  margin-right: 0px;
+  display: flex;
+}
+
+.icon-align {
+  margin-right: 10px;
+}
+
+.bell.big.icon.header-icon {
+  filter: drop-shadow(2px 4px 4px black);
+}
+
+.sign-in.alternate.big.icon.header-icon {
+  filter: drop-shadow(2px 4px 4px black);
+}
+
+.header-logo {
+  filter: drop-shadow(2px 4px 4px black);
+}

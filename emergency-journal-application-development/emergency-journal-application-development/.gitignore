@@ -1,0 +1,11 @@
+testing/node_modules
+app/testing/coverage/*
+*__pycache__
+.vs/
+*.pyc
+node_modules
+app/package-lock.json
+*.csv
+venv/
+testing/package-lock.json
+testing/regression_testing/testUtilities.js
